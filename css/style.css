@@ -1,5 +1,13 @@
 /* Centramos el div padre container */
 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 .container {
     position: relative;
     display: flex;
@@ -140,18 +148,14 @@ input:focus{
     padding: 0 16px;
     line-height: 27px;
     height: 36px;
-    min-width: 54px;
+    width: 54px;
     text-align: center;
-    top: 40vmin;
-    left: 50vmin;
-
+    top: -8vmin;
+    left: 10vmin;
 }
 
 #textoGoogle {
     position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     border-radius: 4px;
     height: 38px;
     width: 170px;
@@ -179,16 +183,16 @@ input[type="submit"]:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    cursor: pointer;
+    cursor: .pointer;
     border-radius: 4px;
     margin: 11px 4px;
     padding: 0 16px;
     line-height: 27px;
     height: 36px;
-    min-width: 54px;
+    width: 54px;
     text-align: center;
-    top: 40vmin;
-    right: 50vmin;
+    top: -8vmin;
+    right: 8vmin;
 
 }
 
@@ -208,5 +212,123 @@ input[type="submit"]:hover {
     user-select: none;
     font-family: arial, sans-serif;
     background-color: #f8f9fa;
+
+}
+
+/* Acabamos con el div del footer */
+
+.footerGoogle {
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    width: 100%;
+    height: 50px;
+    background-color: #f8f9fa;
+    border: 1px solid #cdcdcd;
+    bottom: 0vmin;
+}
+
+
+.textoIzquierda {
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    bottom: 0vmin;
+}
+
+
+.textoAdver {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    left: 1vmin;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    line-height: 8px;
+    white-space: nowrap;
+
+}
+
+/* .textoAdver a:hover {
+    text-decoration: underline;
+} */
+
+.textoBusi {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    left: 11vmin;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    line-height: 8px;
+    white-space: nowrap;
+
+}
+
+.textoAbout {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    left: 20vmin;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    line-height: 8px;
+    white-space: nowrap;
+
+}
+
+.textoDerecha {
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    bottom: 0vmin;
+}
+
+.textoPriva {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    right: 23vmin;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    line-height: 8px;
+    white-space: nowrap;
+
+}
+
+.textoTerm {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    right: 14vmin;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    line-height: 8px;
+    white-space: nowrap;
+
+}
+
+.textoSett {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    right: 2vmin;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    line-height: 8px;
+    white-space: nowrap;
 
 }
