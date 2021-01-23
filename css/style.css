@@ -126,7 +126,7 @@ input:focus{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(/img/lupa.png);
+    background-image: url("../img/lupa.png");
     background-color: transparent;
     width: 20px;
     height: 20px;
