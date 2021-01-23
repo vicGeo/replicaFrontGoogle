@@ -9,3 +9,36 @@
     height: 100vh;
     background-color: white;
 }
+
+/* Posicionamos el header arriba a la derecha */
+
+.header {
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: flex-end;
+    text-align: right;
+    font-size: 13px;
+    font-family: arial, sans-serif;
+    padding: 10px;
+    /* background-color: red; */
+    top: 1vmin;
+    right: 5vmin;
+
+}
+.textoGmail {
+    margin: 5px;
+}
+
+.textoImg {
+    margin: 5px;
+}
+
+.forma {
+    margin: 5px;
+}
+
+.signIn {
+    margin: 5px;
+}
