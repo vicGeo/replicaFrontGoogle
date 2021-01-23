@@ -81,3 +81,49 @@
     background-repeat: no-repeat;
     top: 20vmin;
 }
+
+/* Input buscador google */
+
+.buscador {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 480px;
+    height: 50px;
+    /* background-color: yellow; */
+    /* border: 1px solid #cdcdcd; */
+    border-radius: 1px 1px 1px 1px;
+}
+
+input:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+#searchbar {
+    position: absolute;
+    width: 480px;
+    height: 50px;
+    border: 1px solid #cdcdcd;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 2px 2px 6px #888888;
+    top: -15vmin;
+
+}
+
+.lupa {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/img/lupa.png);
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    top: -13vmin;
+    right: 2vmin;
+}
+
