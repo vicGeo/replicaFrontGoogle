@@ -21,6 +21,7 @@
     text-align: right;
     font-size: 13px;
     font-family: arial, sans-serif;
+    color: black;
     padding: 10px;
     /* background-color: red; */
     top: 1vmin;
@@ -28,17 +29,55 @@
 
 }
 .textoGmail {
-    margin: 5px;
+    margin: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .textoImg {
-    margin: 5px;
+    margin: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .forma {
-    margin: 5px;
+    margin: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-image: url(/img/cuadricula.png);
+    background-size: cover;
 }
 
 .signIn {
-    margin: 5px;
+    margin: 4px;
+    margin-left: 20px;
+    background-color: #1a508b;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+
+}
+
+/* Empezamos con el el div del logo de Google */
+
+.logo {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/img/googlelogo.png);
+    width: 270px;
+    height: 200px;
+    background-repeat: no-repeat;
+    top: 20vmin;
 }
