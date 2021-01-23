@@ -127,3 +127,86 @@ input:focus{
     right: 2vmin;
 }
 
+/* Botón Google y botón "voy a tener suerte" */
+
+.textoGoogle {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    top: 40vmin;
+    left: 50vmin;
+
+}
+
+#textoGoogle {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    height: 38px;
+    width: 170px;
+    text-align: center;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    font-size: 14px;
+    user-select: none;
+    font-family: arial, sans-serif;
+    background-color: #f8f9fa;
+
+}
+
+input[type="submit"]:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+    cursor: pointer;
+}
+
+.textoSuerte {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    top: 40vmin;
+    right: 50vmin;
+
+}
+
+#textoSuerte {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    height: 38px;
+    width: 170px;
+    text-align: center;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    font-size: 14px;
+    user-select: none;
+    font-family: arial, sans-serif;
+    background-color: #f8f9fa;
+
+}
