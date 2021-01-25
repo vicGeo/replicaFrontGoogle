@@ -87,7 +87,7 @@
     width: 270px;
     height: 200px;
     background-repeat: no-repeat;
-    top: 20vmin;
+    top: 15vmin;
 }
 
 /* Input buscador google */
@@ -117,7 +117,7 @@ input:focus{
     border-radius: 15px;
     text-align: center;
     box-shadow: 2px 2px 6px #888888;
-    top: -15vmin;
+    top: -10vmin;
 
 }
 
@@ -131,7 +131,7 @@ input:focus{
     width: 20px;
     height: 20px;
     background-repeat: no-repeat;
-    top: -13vmin;
+    top: -7vmin;
     right: 2vmin;
 }
 
@@ -150,7 +150,7 @@ input:focus{
     height: 36px;
     width: 54px;
     text-align: center;
-    top: -8vmin;
+    top: -2vmin;
     left: 10vmin;
 }
 
@@ -191,7 +191,7 @@ input[type="submit"]:hover {
     height: 36px;
     width: 54px;
     text-align: center;
-    top: -8vmin;
+    top: -2vmin;
     right: 8vmin;
 
 }
@@ -263,7 +263,7 @@ input[type="submit"]:hover {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    left: 11vmin;
+    left: 15vmin;
     font-family: arial,sans-serif;
     font-size: 14px;
     line-height: 8px;
@@ -276,7 +276,7 @@ input[type="submit"]:hover {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    left: 20vmin;
+    left: 27vmin;
     font-family: arial,sans-serif;
     font-size: 14px;
     line-height: 8px;
@@ -299,7 +299,7 @@ input[type="submit"]:hover {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-    right: 23vmin;
+    right: 33vmin;
     font-family: arial,sans-serif;
     font-size: 14px;
     line-height: 8px;
@@ -312,7 +312,7 @@ input[type="submit"]:hover {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-    right: 14vmin;
+    right: 20vmin;
     font-family: arial,sans-serif;
     font-size: 14px;
     line-height: 8px;
